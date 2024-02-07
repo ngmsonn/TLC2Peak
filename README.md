@@ -1,8 +1,8 @@
-# TLC2Spectrum
+# TLC2Peaks
 
 Version: 2.0
 Usage: 
 
 ```python
-from TLC2Spectrum import tlc
+from TLC2Peaks import tlc
 ``
