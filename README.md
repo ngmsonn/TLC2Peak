@@ -1,10 +1,10 @@
-# TLC2Peaks
+# TLCTools
 
 Version: 3.0
 Usage: 
 
 ```python
-from TLC2Peaks import tlc
+from TLCTools import tlc
 ```
 Chức năng
 1. Tạo peaks từ ảnh bản mỏng TLC
