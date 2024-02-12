@@ -6,6 +6,6 @@ TLCTools is a user-friendly tool geared towards both educational and research pu
 * Prediction of concentration.
 
 ```python
-from tlctools import tlc
+from TLCTools import tlc
 ```
 
