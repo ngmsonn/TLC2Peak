@@ -1,12 +1,7 @@
-# TLCTools
-
-Version: 3.0
-Usage: 
-
-```python
-from TLCTools import tlc
-```
-Chức năng
-1. Tạo peaks từ ảnh bản mỏng TLC
-2. Lấy thông số RBG theo hàng, cột, toàn ảnh
-3. Làm mượt dữ liệu
+TLCTools is a user-friendly tool geared towards both educational and research purposes. It assists analyzing thin-layer chromatography (TLC) chromatogeams by offering the following functionalities:
+* Visualization TLC chromatorams based on images.
+* Calcation of peak parameters: peak number, peak width, peak height and peak area.
+Usage:
+"""
+Hello
+"""
