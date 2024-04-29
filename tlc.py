@@ -77,3 +77,7 @@ def get_RGB_row(input_img, pxrow):
             mean_RGB_row = np.append(mean_RGB_row, I)
     return np.array(mean_RGB_row)
     
+    
+def segdot(input_img):
+    
+    print("Hello word")
