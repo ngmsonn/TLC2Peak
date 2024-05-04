@@ -5,6 +5,6 @@ TLCTools is a user-friendly tool geared towards both educational and research pu
 
 
 ```python
-from TLCTools import tlc2peak
+from TLCTools import tlc
 ```
 
