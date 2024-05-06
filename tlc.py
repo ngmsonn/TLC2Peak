@@ -51,7 +51,7 @@ def tlc2peaks(input_img, background):
         print("Error!!!")
     return plt.plot(axis_x, axis_y)
 
-def get_RGB(input_img):
+def get_meanRGB(input_img):
     """Get RGB value of each pixel
     
     Args:
@@ -64,6 +64,20 @@ def get_RGB(input_img):
             for k in range(rbg_img.shape[1]):
                 mean_RGB.append(rbg_img[i, k].mean())
     return np.array(mean_RGB)
+
+def get_RGB(input_img):
+    """Get RGB value of each pixel
+    
+    Args:
+        input_img: Path to image.
+    """
+    org_img = cv2.imread(input_img)
+    rbg_img = cv2.cvtColor(org_img, cv2.COLOR_BGR2RGB)
+    RGB = []
+    for i in range(rbg_img.shape[0]):
+            for k in range(rbg_img.shape[1]):
+                RGB.append(rbg_img[i, k])
+    return np.array(RGB)
 
 def get_RGB_row(input_img, pxrow):
     org_img = cv2.imread(input_img)
